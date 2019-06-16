@@ -1,5 +1,5 @@
 fun main(args: Array<String>) {
-    val pyMod = PyModule("/Users/user/Desktop/c-api/src/python.py")
+    val pyMod = PyModule("/Users/user/Desktop/src/python.py")
     pyMod.initScript()
     //вызов функции вне класса
     pyMod.call("function", "Hello, World!")
